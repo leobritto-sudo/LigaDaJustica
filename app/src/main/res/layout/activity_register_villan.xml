@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252323"
+    tools:context=".RegisterVillan">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editNomeVillan"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="@string/editNome"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.061"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editCodinomeVillan"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="@string/editCodinome"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editNomeVillan"
+            app:layout_constraintVertical_bias="0.053"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editEspecieVillan"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="@string/editEspecie"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editCodinomeVillan"
+            app:layout_constraintVertical_bias="0.072"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editHabilidadeVillan"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="@string/editHabilidade"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editVulnerabilidadeVillan"
+            app:layout_constraintVertical_bias="0.075"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editVulnerabilidadeVillan"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="@string/editVulnerabilidade"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editEspecieVillan"
+            app:layout_constraintVertical_bias="0.045"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editRival"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="@string/editRival"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintBottom_toTopOf="@+id/textAcesso"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editHabilidadeVillan"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editEsconderijo"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="@string/editEsconderijo"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editDataAtaque"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="@string/editDataAtaque"
+            android:inputType="date"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/textAcesso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:paddingStart="50dp"
+            android:text="@string/textAcesso"
+            android:textColor="#EAE4E4"
+            app:layout_constraintBottom_toTopOf="@+id/rdAcessoVillan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editHabilidadeVillan"
+            app:layout_constraintVertical_bias="0.84"
+            tools:ignore="RtlSymmetry" />
+
+        <RadioGroup
+            android:id="@+id/rdAcessoVillan"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:paddingStart="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editHabilidadeVillan"
+            tools:ignore="RtlSymmetry">
+
+            <RadioButton
+                android:id="@+id/rb10"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rb10"
+                android:textColor="#F4EFEF" />
+
+            <RadioButton
+                android:id="@+id/rb0"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rb0"
+                android:textColor="#F6F0F0" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textNull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="25dp"
+            android:textAlignment="center"
+            android:textColor="#9F0404"
+            app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rdAcessoVillan" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_button2"
+            android:onClick="Register"
+            android:text="@string/btnRegister"
+            android:textColor="#F6F1F1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rdAcessoVillan" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/custom_button2"
+            android:onClick="Back"
+            android:text="@string/btnBack"
+            android:textColor="#F6F1F1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

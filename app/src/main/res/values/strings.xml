@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LigaDaJustica</string>
+    <string name="textErro">Login ou senha errados</string>
+    <string name="textAcesso">Nível de Acesso</string>
+    <string name="textSucessoHero">Herói cadastrado com sucesso</string>
+    <string name="textSucessoVilao">Vilão cadastrado com sucesso</string>
+    <string name="textSucessoEqui">Equipamento cadastrado com sucesso</string>
+    <string name="textTipo">Equipamento de herói ou vilão</string>
+    <string name="editLogin">Login</string>
+    <string name="editSenha">Senha</string>
+    <string name="editNome">Nome</string>
+    <string name="editCodinome">Codinome</string>
+    <string name="editEspecie">Espécie</string>
+    <string name="editHabilidade">Habilidade</string>
+    <string name="editVulnerabilidade">Vulnerabilidade</string>
+    <string name="editEsconderijo">Esconderijo</string>
+    <string name="editDataAtaque">Data do último ataque</string>
+    <string name="editRival">Rival</string>
+    <string name="editDesc">Descrição</string>
+    <string name="editFin">Finalidade</string>
+    <string name="editDono">Dono do equipamento</string>
+    <string name="rb0">0</string>
+    <string name="rb10">10</string>
+    <string name="rbHero">Herói</string>
+    <string name="rbVillan">Vilão</string>
+    <string name="btnLogin">Entrar</string>
+    <string name="btnSair">Sair</string>
+    <string name="btnHerois">Cadastrar Heróis</string>
+    <string name="btnViloes">Cadastrar Vilões</string>
+    <string name="btnEqui">Cadastrar Equipamentos</string>
+    <string name="btnRegister">Cadastrar</string>
+    <string name="btnBack">Voltar</string>
+    <string name="btnBackMain">Menu Principal</string>
+    <string name="imageCheck">Sucesso</string>
+    <string name="imageLogout">Logout</string>
+</resources>
